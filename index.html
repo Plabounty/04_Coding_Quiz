@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Coding Quiz</title>
-</head>
-<body>
-    <button id="start-btn">start timer</button>
-    <h1 id="timeEl"></h1>
+  </head>
+  <body>
+    <div class="container">
+      <div id="question-container" class="hide">
+        <h1 id="timeEl" class="timer"></h1>
+        <div id="question">Questions</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn hide">Start Quiz</button>
+        <button id="Next-btn" class="next-btn btn hide">Next</button>
+        <button id="highscores-btn" class="highscores-btn btn hs-btn">High Scores</button>
+        
+      </div>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
