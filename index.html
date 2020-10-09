@@ -9,6 +9,7 @@
   <body>
     
     <div class="container">
+    <section id="quiz">
       <h1 class="header">Coding Quiz</h1>
       <div id="question-container" class="hide">
         <h1 id="timeEl" class="timer"></h1>
@@ -23,9 +24,17 @@
       <div class="controls">
         <button id="start-btn" class="start-btn btn">Start Quiz</button>
         <button id="next-btn" class="next-btn btn hide">Next</button>
-        <button id="highscores-btn" class="highscores-btn btn hs-btn">High Scores</button>
+        <button id="score-btn" class="score-btn btn hs-btn">View Scores</button>
         
       </div>
+    </section>
+    <section id="scores" class="card hide">
+      <p class="hspage"><strong>Score:</strong> <span id="thisscore"></span></p>
+      <div id="initialAndButton"> 
+      <input type="text" name="initials" id="initials" placeholder="Initials" />
+      <button onclick="saveUserScore()">Submit</button>
+    </div>
+    </section>
     </div>
     <script src="./script.js"></script>
   </body>
