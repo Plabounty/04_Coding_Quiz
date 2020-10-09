@@ -9,3 +9,4 @@ Incorrect responses also deduct 10 seconds off the timer. The time left once you
 https://plabounty.github.io/04_Coding_Quiz/.
 
 
+![Screenshot](image/Coding Quiz.png)
